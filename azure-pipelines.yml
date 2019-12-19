@@ -2,10 +2,8 @@ jobs:
   # track deployments on the environment
 - deployment: PowerShellScript
   displayName: powershell script
-  pool:
-    vmImage: 'pool1'
   # creates an environment if it doesn't exist
-  environment: 'env1'
+  environment: 'env1.akshaya-desktop'
   strategy:
     # default deployment strategy, more coming...
     runOnce:
