@@ -9,4 +9,4 @@ jobs:
     runOnce:
       deploy:
         steps:
-        - script: Write-Host "Hello World"
+        - script: echo "Hello World"
