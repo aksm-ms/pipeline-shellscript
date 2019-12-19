@@ -1,1 +1,2 @@
-echo "hello world"
+d=`date`
+echo "today's date: $d"
