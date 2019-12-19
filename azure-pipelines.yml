@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: Default
+pool: pool1
 
 steps:
 - script: sh hello.sh
