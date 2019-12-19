@@ -1,6 +1,6 @@
 jobs:
   # track deployments on the environment
-- deployment: PowerShell@2
+- deployment: PowerShellScript
   displayName: powershell script
   pool:
     vmImage: 'pool1'
