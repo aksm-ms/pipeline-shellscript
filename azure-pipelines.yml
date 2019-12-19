@@ -1,9 +1,9 @@
 jobs:
   # track deployments on the environment
-- deployment: DeployWeb
-  displayName: deploy Web App
+- deployment: PowerShell@2
+  displayName: powershell script
   pool:
-    vmImage: 'Ubuntu-16.04'
+    vmImage: 'pool1'
   # creates an environment if it doesn't exist
   environment: 'env1'
   strategy:
@@ -11,4 +11,4 @@ jobs:
     runOnce:
       deploy:
         steps:
-        - script: echo my first deployment
+        - script: Write-Host "Hello World"
